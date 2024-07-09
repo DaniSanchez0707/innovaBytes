@@ -44,4 +44,6 @@
 .img-container {
   display: block;
   margin: 0 auto;
+  max-width: 100%; /* La imagen no será más grande que su contenedor */
+  height: auto; 
 }
