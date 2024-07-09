@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales para resetear márgenes y rellenos */
+body{
+    font-family: "Fira Code", Regular;
+   
+    background-color: rgb(22,25,16);
+    color: white;
+}
+html, body, #root {
+
+
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow: hidden; /* Para evitar barras de desplazamiento y desbordamiento */
+}
+
+.header{
+    margin-top: 10px;
+    
+}
+
+
+
