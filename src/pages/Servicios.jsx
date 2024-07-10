@@ -8,8 +8,7 @@ function Servicios() {
       <br />
 
       <p className="text-left">
-        En InnovaBytes se ofrece el servicio como freelancers en el desarrollo
-        de aplicaciones web para pequeñas y medianas empresas (PYMES)🌐.
+      En InnovaBytes le ofrecemos nuestro servicio como freelancers en el desarrollo de aplicaciones web para pequeñas y medianas empresas (PYMES)🌐.
       </p>
 
       <img
