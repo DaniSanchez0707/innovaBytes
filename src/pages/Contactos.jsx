@@ -11,11 +11,6 @@ function Contactos() {
     
       <br />
       <br />
-      <p>Números telefónicos:</p>
-      <br />
-    <p>{phonenumber}</p>
-    <p>{phonenumber2}</p>
-    <br />
 
     <br />
       <p>Whatsapp:</p>
