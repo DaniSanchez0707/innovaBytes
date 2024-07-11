@@ -3,7 +3,7 @@ import React from 'react'
 function Contactos() {
   // Reemplaza el número con el que deseas iniciar el chat en WhatsApp
   const message='Hola, estoy interesado en tus servicios como desarrollador freelance. ¿Podrías proporcionarme más información?'
-  const phonenumber = '+50487692973'
+  const phonenumber = '+50487682973'
   const whatsappLink = `https://wa.me/${phonenumber}?text=${encodeURIComponent(message)}`;
 
   return (
