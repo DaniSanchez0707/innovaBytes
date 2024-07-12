@@ -3,29 +3,43 @@
 @tailwind utilities;
 
 /* Estilos globales para resetear márgenes y rellenos */
-body{
+body {
     font-family: "Fira Code", Regular;
-   
-    background-color: rgb(22,25,16);
+    overflow-y: auto; /* Permitir scroll vertical */
+    background-color: rgb(22, 25, 16);
     color: white;
+    margin: 0;
+    padding: 0;
 }
+
 html, body, #root {
-
-
     height: 100%;
     width: 100%;
     padding: 0;
-    overflow: hidden; /* Para evitar barras de desplazamiento y desbordamiento */
 }
 
-.header{
+.container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+}
+
+.img-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.header {
     margin-top: 10px;
-    
-}
-
-
-
-img{
-    display: 'block';
-     margin: '0 auto'
 }
