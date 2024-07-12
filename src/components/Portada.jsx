@@ -18,6 +18,10 @@ function Portada() {
         alt=""
      
       />
+<br/>
+<p className="text-left">
+      Somos Freelancers que ofrecemos el servicio de desarrollo de aplicaciones web para pequeñas y medianas empresas (PYMES) o personas que buscan una solución tecnológica.🌐 
+      </p>
 
 </>
   )
